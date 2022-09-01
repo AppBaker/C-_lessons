@@ -1,6 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
-int numberA = 34;
-int numberB = 96;
-int result = numberA + numberB;
-Console.WriteLine(result);
+double numberA = 12;
+double numberB = 5;
+if (numberA > numberB)
+{
+    double result = numberA / numberB;
+    Console.WriteLine(result);
+}
+
+// Console.WriteLine(result);
